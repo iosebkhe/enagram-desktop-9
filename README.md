@@ -1,8 +1,8 @@
 # Enagram - 9
 
 პროექტის გასაშვებად: 
-npm install
-npm run dev
+- npm install
+- npm run dev
 
 ### Links
 
