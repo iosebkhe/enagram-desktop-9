@@ -1,0 +1,36 @@
+:root {
+  --main-bg-color: #f8f8f8;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("./assets/Fonts/helveticaneue-regular.woff2") format("woff2"),
+    url("./assets/Fonts/helveticaneue-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("./assets/Fonts/helveticaneue-bold.woff2") format("woff2"),
+    url("./assets/Fonts/helveticaneue-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: var(--main-bg-color);
+}

@@ -1,0 +1,5 @@
+.container {
+  display: grid;
+  grid-template-columns: minmax(0, 17.7rem) 1fr;
+  height: calc(100vh - 8.1rem);
+}

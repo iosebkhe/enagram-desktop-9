@@ -1,0 +1,99 @@
+.sidebar_btn_item {
+  border-bottom-left-radius: 3rem;
+  border-top-left-radius: 3rem;
+  padding-left: 1.2rem;
+}
+
+.sidebar_btn_item_active {
+  background-color: #f8f8f8;
+  color: #2d62ed;
+  position: relative;
+}
+
+.sidebar_btn_item_active::before {
+  content: "";
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #2d62ed;
+  position: absolute;
+  top: -1.6rem;
+  right: 0;
+  z-index: 3;
+}
+
+.sidebar_btn_item_active::after {
+  content: "";
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #2d62ed;
+  position: absolute;
+  bottom: -1.6rem;
+  right: 0;
+  z-index: 3;
+}
+
+.sidebar_btn_item_active::before,
+.sidebar_btn_item_active::after {
+  border-radius: 50%;
+}
+
+.btn {
+  cursor: pointer;
+  width: 100%;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  background: none;
+  border: none;
+  color: #fff;
+
+  padding: 0.8rem 0;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn_active {
+  position: relative;
+}
+
+.btn_active::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  background-color: #f8f8f8;
+  top: -1rem;
+  right: 0;
+}
+
+.btn_active::after {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  background-color: #f8f8f8;
+  bottom: -1rem;
+  right: 0;
+}
+
+.sidebar_btn_item_active .btn {
+  color: #2d62eded;
+}
+
+.btn_icon_span {
+  position: relative;
+}
+
+.btn_icon_span::before {
+  content: "ABC";
+  position: absolute;
+  top: -0.3rem;
+  left: 0.3rem;
+  font-size: 0.4rem;
+  font-weight: 500;
+}

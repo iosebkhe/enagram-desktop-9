@@ -1,0 +1,21 @@
+.main_btn {
+  font-family: inherit;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.6rem;
+  background-color: #2d62ed;
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  padding: 0.4rem 2rem 0.4rem 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  transition: opacity 150ms ease;
+  cursor: pointer;
+}
+
+.main_btn:hover {
+  opacity: 0.9;
+}

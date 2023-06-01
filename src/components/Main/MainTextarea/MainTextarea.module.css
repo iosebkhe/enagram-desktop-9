@@ -1,0 +1,16 @@
+.textarea_container {
+  margin: 5.2rem 12.9rem 0 11.8rem;
+}
+
+.textarea {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  color: #6f6f6f;
+  width: 100%;
+  height: 100%;
+  line-height: 2rem;
+  word-break: break-all;
+}
