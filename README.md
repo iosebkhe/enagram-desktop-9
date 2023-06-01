@@ -6,7 +6,7 @@
 
 ### Created with
 
-- Reac.js
+- React.js
 - CSS Modules
 
 ## Author
