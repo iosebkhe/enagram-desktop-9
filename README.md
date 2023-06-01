@@ -1,5 +1,9 @@
 # Enagram - 9
 
+პროექტის გასაშვებად: 
+npm install
+npm run dev
+
 ### Links
 
 - Live Site URL: [Click here](https://enagram9-iosebkhe.netlify.app/)
